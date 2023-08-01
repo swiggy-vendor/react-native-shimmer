@@ -14,6 +14,7 @@ buildscript {
 apply plugin: 'com.android.library'
 
 android {
+    namespace "com.oblador.shimmer"
     compileSdkVersion safeExtGet('compileSdkVersion', 26)
     buildToolsVersion safeExtGet('buildToolsVersion', '26.0.3')
 
